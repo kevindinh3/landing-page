@@ -1,0 +1,64 @@
+
+.flex-container{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+
+.one{
+    background: white;
+    height: 400px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction:row;
+    height: 20px;
+    margin: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.two{
+    background: gray;
+    height: 400px;
+}
+.box{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:10px;
+    padding:10px;
+}
+.pic{
+    height:500px;
+    width: 997px;
+    justify-content: space-around;
+}
+.picone{
+    height: 150px;
+    width: auto;
+    border-radius: 10%
+}
+.pictwo{
+    height: 150px;
+    width: auto;
+    border-radius: 10%
+}
+.picthree{
+    height: 150px;
+    width: auto;
+    border-radius: 10%
+}
+
+.three{
+    background: rgb(79, 79, 79);
+    height: 240px;
+    
+}
+.quote{
+    font-size: 50px;
+    font-style: italic;
+    font-family: cursive;
+    text-align: center;
+    padding: 60px;
+}
